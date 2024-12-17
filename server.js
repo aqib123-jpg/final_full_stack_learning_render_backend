@@ -51,7 +51,7 @@ app.get('/api/users', (req, res) => {
   });
 });
 
-const PORT = 5000;
-app.listen(PORT, () => {
+// const PORT = 5000;
+app.listen(port || 5000 , () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
